@@ -1,5 +1,5 @@
-<strong>paginacion rect spring</strong>
-only testing pagination, no dtos or mapping yet in the backend
+<strong>recipes using spring and react</strong>
+no dtos or mapping yet in the backend just training front
 
 <div>
 Create Recipe

@@ -65,5 +65,12 @@ public class RecipesServiceImpl implements IRecipesService {
 
         return recipes;
     }
+
+    @Override
+    public List<Recipes> getRecipesByTitle(String name) {
+        List<Recipes> recipes = recipesRepository.findByTitle(name);
+
+        return recipes;
+    }
 }
 

@@ -27,6 +27,12 @@ public class RecipesController {
         return recipesRepository.findAll();
     }
 
+    @GetMapping("/search")
+    public ResponseEntity<List<Recipes>> getCategoryByName(@RequestParam(value = "q")@PathVariable String name)  {
+
+        return ResponseEntity.ok(iRecipesService.getRecipesByTitle(name));
+    }
+
     @PostMapping
     public Recipes createEmployee(@RequestBody Recipes recipes) {
         return recipesRepository.save(recipes);

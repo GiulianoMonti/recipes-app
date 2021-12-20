@@ -13,3 +13,8 @@ Create Recipe
 Recipe
 </div>
 <img src ="images/papas3.png" width="600">
+</div>
+<div>
+Search recipes
+</div>
+<img src ="images/papas4.png" width="600">
